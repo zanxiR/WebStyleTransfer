@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/logo.png" type="image/x-icon" />
+	<title>骨骼提取</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/venobox.css">
+	<link rel="stylesheet" href="css/range.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+	<div class="top_to">
+		<i class="fas fa-chevron-up"></i>
+	</div>
+
+	<!--================ Header Part HTML Start ======================-->
+
+	<header>
+		<div class="top-area">
+			<div class="container">
+				<div class="row">
+					
+				</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 p-0">
+						<nav class="navbar navbar-expand-md navbar-light p-0">
+							<a class="navbar-brand" href="index.html">
+								<img src="images/logo.png" class="img-fluid" alt="Logo">
+							</a>
+							<ul class="add-to-cart small-cart">
+								<li>
+									<a href="cart.html"><img src="images/cart.png" alt="Cart Image"></a>
+								</li>
+							</ul>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="fas fa-bars"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul class="navbar-nav mr-auto ml-auto">
+										<li class="nav-item head-dropdown">
+											<a class="nav-link"  href="index.html">主页</a>
+											
+										</li>
+										<li class="nav-item">
+											<a class="nav-link active" href="about.html">骨骼提取</a>
+										</li>
+										<li class="nav-item head-dropdown">
+											<a class="nav-link" href="about2.html">风格迁移</a>
+											
+										<li class="nav-item">
+											<a class="nav-link" href="bvh/bvhindex.html">骨架展示</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="faces/index.html">模型演示</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="about3.html">相关文档</a>
+										</li>
+									</ul>
+									
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--================ Header Part HTML End ======================-->
+
+	<!--================ Breadcumb Part HTML Start ======================-->
+
+	<section id="breadcumb" style="background:url(images/grid-view/VCG211274679015.jpg) no-repeat center;background-size:cover;">
+		<div class="bnr-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center p-0">
+						<ul>
+							<li><a href="index.html">骨骼提取程序下载地址</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Breadcumb Part HTML End ======================-->
+
+	<!--================ About Part HTML Start ======================-->
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>骨骼提取流程</h2>
+				</div>
+				<!--div class="col-lg-6 col-md-6 text-right d-md-none d-lg-block about-left">
+					<img src="images/about-1.png" class="img-fluid" alt="About Image">
+				</div-->
+				<div class="col-lg-5 col-md-12 p-0">
+					<div class="about-content">
+						<div class="item">
+							<h3>准备视频文件</h3>
+							<p>点击上方地址下载程序压缩包，解压文件夹。将需要提取骨骼的视频文件放进openpose->examples->media文件夹中<span>
+									</span>。</p>
+							<img src="images/about-icon-1.png" class="img-fluid" alt="About Icon">
+						</div>
+						<div class="item">
+							<h3>打开命令行</h3>
+							<p>进入openpose主目录，按住shift+鼠标右键，点击进入power shell <span></span>.</p>
+							<img src="images/about-icon-2.png" class="img-fluid" alt="About Icon">
+							
+	                         <img src="images/power.jpg" style="width:300px;position:absolute;left:98%;top:10%;">
+						</div>
+						
+						<div class="item">
+							<h3>输入指令</h3>
+							<p>在命令行中输入"bin\OpenPoseDemo.exe --net_resolution "128x128" --video examples\media\</p><p style="color:red">xxx.mp4</p>--hand  --write_json examples\media_out\"</span></p>
+							<img src="images/about-icon-3.png" class="img-fluid" alt="About Icon">
+						</div>
+						<div class="item">
+							<h3>得到结果</h3>
+							<p>openpose提取的骨骼文件结果以json格式存在examples\media_out\ 文件夹中 <span></span>.</p>
+							<img src="images/about-icon-3.png" class="img-fluid" alt="About Icon">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ About Part HTML End ======================-->
+
+	<!--================ Bella's Service Part HTML Start =============-->
+
+
+	<!--================ Gallery Part HTML End =============-->
+
+	<!--================ Footer Part HTML Start =============-->
+
+
+	<!--================ Footer Part HTML End =============-->
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/venobox.min.js"></script>
+	<script src="js/range.js"></script>
+ 
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
+

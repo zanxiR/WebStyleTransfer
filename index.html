@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/logo.png" type="image/x-icon" />
+	<title>主页</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/venobox.css">
+	<link rel="stylesheet" href="css/range.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+	<!--================ Preloader HTML Start ======================-->
+
+	<div class="preloader">
+		<img src="images/preloader.gif" alt="Preloader Image">
+	</div>
+
+	<!--================ Preloader HTML End ======================-->
+
+	<!--================ Back to Top HTML Start ======================-->
+
+	<div class="top_to">
+		<i class="fas fa-chevron-up"></i>
+	</div>
+
+	<!--================ Back to Top HTML End ======================-->
+
+	<!--================ Header Part HTML Start ======================-->
+
+	<header>
+		<div class="top-area">
+			<div class="container">
+				
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 p-0">
+						<nav class="navbar navbar-expand-md navbar-light p-0">
+							<a class="navbar-brand" href="index.html">
+								<img src="images/logo.png" class="img-fluid" alt="Logo">
+							</a>
+							<ul class="add-to-cart small-cart">
+								<li>
+									<a href="cart.html"><img src="images/cart.png" alt="Cart Image"></a>
+								</li>
+							</ul>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="fas fa-bars"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto ml-auto">
+									<li class="nav-item head-dropdown">
+										<a class="nav-link active"  href="index.html">主页</a>
+										
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="about.html">骨骼提取</a>
+									</li>
+									<li class="nav-item head-dropdown">
+										<a class="nav-link" href="about2.html">风格迁移</a>
+										
+									<li class="nav-item">
+										<a class="nav-link" href="bvh/bvhindex.html">骨架展示</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="faces/index.html">模型演示</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="about3.html">相关文档</a>
+									</li>
+								</ul>
+								
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--================ Header Part HTML End ======================-->
+
+	<!--================ Banner Part HTML Start ======================-->
+
+	<section id="banner">
+		<div class="banner-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 p-0 text-center wh-btn">
+						<h1>Motion</h1>
+						<h3>Style Transfer</h3>
+						<p>本平台集成了骨骼提取、风格迁移、BVH文件骨架展示以及BVH文件模型绑定演示功能
+							<br> <span>点击下方按钮进入对应功能</span></p>
+						<a href="about.html" class="abs-reflect">骨骼提取</a>
+						<a href="about2.html" class="abs-reflect">风格迁移</a>
+						<a href="bvh/bvhindex.html" class="abs-reflect">骨架展示</a>
+						<a href="faces/index.html" class="abs-reflect">模型演示</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Banner Part HTML End ======================-->
+
+	<!--================ About Part HTML Start ======================-->
+
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>About The Use Of Motion Style Transfer</h2>
+				</div>
+				
+				<div class="col-lg-12 text-center">
+					<div class="about-content">
+						<div class="item">
+							<h3>骨骼提取</h3>
+							<p>该功能用于提取视频中的人物骨骼，进而进行风格迁移，如果Style Input为3D的BVH文件则无需使用该功能。</p>
+							<img src="images/about-icon-1.png" class="img-fluid" alt="About Icon">
+						</div>
+						<div class="item">
+							<h3>风格迁移</h3>
+							<p>该功能是平台的核心功能，后台连接了训练好的网络。用户提供Content Input和Style Input两个输入，网络处理后会得到风格迁移后的BVH文件。</p>
+							<img src="images/about-icon-2.png" class="img-fluid" alt="About Icon">
+						</div>
+						<div class="item">
+							<h3>骨架展示</h3>
+							<p>该功能支持BVH文件的骨骼可视化。</p>
+							<img src="images/about-icon-3.png" class="img-fluid" alt="About Icon">
+						</div>
+						<div class="item">
+							<h3>模型演示</h3>
+							<p>该功能可以将BVH文件与人体模型绑定，同时对模型进行一些基础的调整操作。</p>
+							<img src="images/about-icon-4.png" class="img-fluid" alt="About Icon">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ About Part HTML End ======================-->
+
+	<!--================ Bella's Service Part HTML Start =============-->
+
+	<!--section id="bellas-service">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="content">
+						<img src="images/service-icon-1.png" class="img-fluid" alt="Service Icon">
+						<h4>Stone Theraphy<br> 2200 Persons</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="content">
+						<img src="images/service-icon-2.png" class="img-fluid" alt="Service Icon">
+						<h4>Beauty Tips<br>1500 Persons</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="content">
+						<img src="images/service-icon-3.png" class="img-fluid" alt="Service Icon">
+						<h4>Hot Water Spa<br> 2700 Persons</h4>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="content">
+						<img src="images/service-icon-4.png" class="img-fluid" alt="Service Icon">
+						<h4>Back Message<br> 2700 Persons</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Bella's Service Part HTML End =============-->
+
+	<!--================ Gallery Part HTML Start =============-->
+
+	<!--section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>Bella’s Gallery</h2>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-3 px-md-0 px-sm-0">
+					<div class="gallery-items">
+						<a class="venobox" data-gall="gallery01" href="images/VCG211274679015.jpg">
+							<img src="images/VCG211274679015.jpg" class="img-fluid" alt="Gallery Image">
+							<div class="gallery-overlay wh-btn">
+								<span class="abs-reflect"><i class="fas fa-search"></i></span>
+								<h3>Stone Theraphy</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-3 px-md-0 px-sm-0">
+					<div class="gallery-items">
+						<a class="venobox" data-gall="gallery01" href="images/gallery-2.jpg">
+							<img src="images/gallery-2.jpg" class="img-fluid" alt="Gallery Image">
+							<div class="gallery-overlay wh-btn">
+								<span class="abs-reflect"><i class="fas fa-search"></i></span>
+								<h3>Stone Theraphy</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-3 px-md-0 px-sm-0">
+					<div class="gallery-items">
+						<a class="venobox" data-gall="gallery01" href="images/gallery-3.jpg">
+							<img src="images/gallery-3.jpg" class="img-fluid" alt="Gallery Image">
+							<div class="gallery-overlay wh-btn">
+								<span class="abs-reflect"><i class="fas fa-search"></i></span>
+								<h3>Stone Theraphy</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-md-3 px-md-0 px-sm-0">
+					<div class="gallery-items">
+						<a class="venobox" data-gall="gallery01" href="images/gallery-4.jpg">
+							<img src="images/gallery-4.jpg" class="img-fluid" alt="Gallery Image">
+							<div class="gallery-overlay wh-btn">
+								<span class="abs-reflect"><i class="fas fa-search"></i></span>
+								<h3>Stone Theraphy</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-12 text-center ph-btn">
+					<a href="#" class="abs-reflect">Browse All</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Gallery Part HTML End =============-->
+
+	<!--================ Join Member Part HTML Start =============-->
+
+	<!--section id="join-member">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 p-0 ph-btn text-center">
+					<h4>Want to get Our Services?</h4>
+					<h3>Just Become Our Member Now</h3>
+					<a href="#" class="abs-reflect">Join Now</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Join Member Part HTML End =============-->
+
+	<!--================ Product Part HTML Start =============-->
+
+	<!--section id="product">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>Bella’s Products</h2>
+				</div>
+				<div class="col-12">
+					<div class="row product-slide">
+						<div class="col-lg-3 text-center">
+							<figure>
+								<div class="product-item">
+									<img src="images/product-1.jpg" alt="Product Image">
+								</div>
+								<figcaption>
+									<h4 class="title">Bella Special Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h4>Price: $9.99</h4>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-3 text-center">
+							<figure>
+								<div class="product-item">
+									<img src="images/product-2.jpg" alt="Product Image">
+								</div>
+								<figcaption>
+									<h4 class="title">Bella Warm Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h4>Price: $9.99</h4>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-3 text-center">
+							<figure>
+								<div class="product-item">
+									<img src="images/product-3.jpg" alt="Product Image">
+								</div>
+								<figcaption>
+									<h4 class="title">Bella Message Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h4>Price: $9.99</h4>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-3 text-center">
+							<figure>
+								<div class="product-item">
+									<img src="images/product-4.jpg" alt="Product Image">
+								</div>
+								<figcaption>
+									<h4 class="title">Bella Fitness Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h4>Price: $9.99</h4>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="col-lg-3 text-center">
+							<figure>
+								<div class="product-item">
+									<img src="images/product-2.jpg" alt="Product Image">
+								</div>
+								<figcaption>
+									<h4 class="title">Bella Warm Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h4>Price: $9.99</h4>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 text-center ph-btn">
+					<a href="#" class="abs-reflect">Browse All</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Product Part HTML End =============-->
+
+	<!--================ Testimonials Part HTML Start =============-->
+
+	<!--section id="testimonials">
+		<div class="test-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2 col-md-12">
+						<div class="row testimonial-slide">
+							<div class="col-12 client">
+								<div class="row">
+									<div class="col-lg-3 col-md-3 p-0">
+										<img src="images/client-1.jpg" class="img-fluid" alt="Client Image">
+									</div>
+									<div class="col-lg-9 col-md-9">
+										<h4>Nargis Faqri<span>Pemium Customer</span></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod por
+											incididunt ut labore et dolore magna aliqua. <span>Ut enim ad minimniam,
+												quisstrud
+												exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+												Duis
+												aute irure dolor in reprehenderit in voluptate</span> .</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 client">
+								<div class="row">
+									<div class="col-lg-3 col-md-3 p-0">
+										<img src="images/client-2.jpg" class="img-fluid" alt="Client Image">
+									</div>
+									<div class="col-lg-9 col-md-9">
+										<h4>Nargis Faqri<span>Pemium Customer</span></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod por
+											incididunt ut labore et dolore magna aliqua. <span>Ut enim ad minimniam,
+												quisstrud
+												exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+												Duis
+												aute irure dolor in reprehenderit in voluptate</span> .</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 client">
+								<div class="row">
+									<div class="col-lg-3 col-md-3 p-0">
+										<img src="images/client-3.jpg" class="img-fluid" alt="Client Image">
+									</div>
+									<div class="col-lg-9 col-md-9">
+										<h4>Nargis Faqri<span>Pemium Customer</span></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod por
+											incididunt ut labore et dolore magna aliqua. <span>Ut enim ad minimniam,
+												quisstrud
+												exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+												Duis
+												aute irure dolor in reprehenderit in voluptate</span> .</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Testimonials Part HTML End =============-->
+
+	<!--================ Sellar Part HTML Start =============-->
+
+	<!--section id="seller">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="row">
+						<div class="col-12">
+							<h3>Top Seller</h3>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell1.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Natural Product</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border border-0">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell4.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Bella’s Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="row">
+						<div class="col-12">
+							<h3>Best Seller</h3>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell2.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Bella’s Oil</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border border-0">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell5.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Bella’s Honey</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="row">
+						<div class="col-12">
+							<h3>Trending Seller</h3>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell3.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Bella’s Cream</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-sm-6 col-lg-12">
+							<div class="row ml-0 mr-0 sell-border border-0">
+								<div class="col-lg-6 col-sm-12 col-md-6 pl-lg-0 pl-md-0">
+									<img src="images/sell6.jpg" class="img-fluid" alt="Selling Image">
+								</div>
+								<div class="col-lg-6 col-sm-12 col-md-6 pr-lg-0 px-md-0">
+									<h4>Bella’s Juice</h4>
+									<ul class="review">
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+										<li><i class="fas fa-star"></i></li>
+									</ul>
+									<h5>Price: <del>$9.99</del> $6.66</h5>
+									<ul class="cart-list icon-btn">
+										<li><a class="abs-reflect" href="#"><i class="fas fa-heart"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-cart-plus"></i></a></li>
+										<li><a class="abs-reflect" href="#"><i class="fas fa-eye"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--================ Sellar Part HTML End =============-->
+
+	<!--================ Footer Part HTML Start =============-->
+
+	<!--footer>
+		<div class="footer-up" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6 footer-logo col-md-6 md-gape">
+						<a href="#">
+							<img src="images/logo.png" class="img-fluid" alt="Footer Logo">
+						</a>
+						<p>Consecteturglit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor.</p>
+						<ul class="cart-list icon-btn">
+							<li><a class="abs-reflect" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li><a class="abs-reflect" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a class="abs-reflect" href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<li><a class="abs-reflect" href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+							</li>
+							<li><a class="abs-reflect" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-sm-6 links col-md-4 offset-md-2 offset-lg-0 md-gape">
+						<h4>Important Links</h4>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Our Services</a></li>
+							<li><a href="#">Our Portfolio</a></li>
+							<li><a href="#">Testimonial</a></li>
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6 location  md-gape">
+						<h4>Our Location</h4>
+						<p>1234, Park Street Avenue, Newyork city
+							North America.</p>
+						<h4>Our Email</h4>
+						<p class="minus-top">bellaspacenter@gmail.com
+							spaandtheraphycenter@gmail.com</p>
+						<h4>Our Website</h4>
+						<p class="minus-top">www.bellasapcenter.com</p>
+					</div>
+					<div class="col-lg-4 col-sm-6 col-md-6 instagram  md-gape">
+						<h4>Instagram Photos</h4>
+						<ul>
+							<li><a href="#"><img src="images/instagram1.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+							<li><a href="#"><img src="images/instagram2.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+							<li><a href="#"><img src="images/instagram3.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+							<li><a href="#"><img src="images/instagram4.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+							<li><a href="#"><img src="images/instagram5.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+							<li><a href="#"><img src="images/instagram6.jpg" class="img-fluid"
+										alt="Instagram Photo"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-7">
+						<p>Copyright &copy; 2019.Company name All rights reserved.</p>
+					</div>
+					<div class="col-lg-6 col-md-5 footer-bottom-card">
+						<a href="#"><img src="images/mastercard.png" class="img-fluid" alt="Payment Image"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--================ Footer Part HTML End =============-->
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/venobox.min.js"></script>
+	<script src="js/range.js"></script>
+	<script src="js/custom.js"></script>
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
+<!--iv class="copyrights">
+
+</div>
+</body>
+
+</html>
+
